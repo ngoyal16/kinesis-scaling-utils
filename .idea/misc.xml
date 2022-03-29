@@ -4,48 +4,24 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="1510" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/StreamMetricsManager.js" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="1819" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/lib/Kinesis.js" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="244" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/config.json" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="351" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/StreamMonitor.js" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="2046" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/.gitignore" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
           <option name="caretOffset" value="111" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/config.example.json" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="618" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/.github/workflows/debug.yml" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="903" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/.github/workflows/release.yml" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="221" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/Dockerfile" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
+          <option name="caretOffset" value="275" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/index.js" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/package.json" />
+          <option name="caretOffset" value="205" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/config.json" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="350" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/README.md" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="115" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/Dockerfile" />
         </OpenedFileInfo>
       </list>
     </option>
