@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="UnattendedHostPersistenceState">
+    <option name="openedFilesInfos">
+      <list>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="1510" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/StreamMetricsManager.js" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="1819" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/lib/Kinesis.js" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="880" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/AutoscalingConfiguration.js" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="283" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/ScalingConfig.js" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="401" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/KinesisOperationType.js" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="244" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/config.json" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="411" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/index.js" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="351" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/StreamMonitor.js" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="111" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/config.example.json" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="2046" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/.gitignore" />
+        </OpenedFileInfo>
+      </list>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,23 @@
+{
+  "streamName": "aws-rds-das-cluster-xxxxx",
+  "region": "ap-south-1",
+  "scaleOnOperation": [
+    "PUT"
+  ],
+  "minShards": 4,
+  "maxShards": 10,
+  "refreshShardsNumberAfterMin": 3,
+  "checkInterval": 300,
+  "scaleUp": {
+    "scaleThresholdPct": 20,
+    "scaleAfterMins": 5,
+    "scalePct": 100,
+    "coolOffMins": 2
+  },
+  "scaleDown": {
+    "scaleThresholdPct": 15,
+    "scaleAfterMins": 5,
+    "scalePct": 50,
+    "coolOffMins": 2
+  }
+}
