@@ -1,0 +1,33 @@
+name: Docker Image CI
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set env
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_ENV
+
+      - name: Login to Public ECR
+        id: login-public-ecr
+        uses: docker/login-action@v1
+        with:
+          registry: public.ecr.aws
+          username: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          password: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        env:
+          AWS_REGION: us-east-1
+
+      - name: Build the Docker image
+        run: |
+          echo "VERSION=$(echo ${GITHUB_REF:10})"
+          docker build . --file Dockerfile --tag aws-kinesis-scaling-utils
+          docker tag aws-kinesis-scaling-utils public.ecr.aws/pixelvide/aws/kinesis-scaling-utils:${RELEASE_VERSION}
+          docker push public.ecr.aws/pixelvide/aws/kinesis-scaling-utils:${RELEASE_VERSION}

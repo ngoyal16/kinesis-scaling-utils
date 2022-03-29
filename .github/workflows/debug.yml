@@ -1,0 +1,33 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Login to Public ECR
+        id: login-public-ecr
+        uses: docker/login-action@v1
+        with:
+          registry: public.ecr.aws
+          username: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          password: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        env:
+          AWS_REGION: us-east-1
+
+      - name: Build the Docker image
+        run: |
+          docker build . --file Dockerfile --tag aws-kinesis-scaling-utils
+          docker tag aws-kinesis-scaling-utils public.ecr.aws/pixelvide/aws/kinesis-scaling-utils/debug:${GITHUB_SHA}
+          docker push public.ecr.aws/pixelvide/aws/kinesis-scaling-utils/debug:${GITHUB_SHA}
