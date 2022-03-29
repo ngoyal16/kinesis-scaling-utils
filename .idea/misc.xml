@@ -12,14 +12,6 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/src/lib/Kinesis.js" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="283" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/ScalingConfig.js" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="401" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/KinesisOperationType.js" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
           <option name="caretOffset" value="244" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/config.json" />
         </OpenedFileInfo>
@@ -40,8 +32,20 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/.github/workflows/debug.yml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="729" />
+          <option name="caretOffset" value="903" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/.github/workflows/release.yml" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="221" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/Dockerfile" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/index.js" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/package.json" />
         </OpenedFileInfo>
       </list>
     </option>
