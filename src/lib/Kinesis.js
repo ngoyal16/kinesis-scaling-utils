@@ -134,6 +134,8 @@ class Kinesis {
       if (streamDetails.StreamStatus === 'ACTIVE') {
         break;
       }
+      
+      await Utils.sleep(1000);
     } while (true);
 
     let ok = false;
@@ -160,6 +162,8 @@ class Kinesis {
             if (streamDetails.StreamStatus === 'ACTIVE') {
               break;
             }
+            
+            await Utils.sleep(1000);
           } while (true);
         } else {
           console.log(err);
@@ -185,6 +189,8 @@ class Kinesis {
       if (streamDetails.StreamStatus === 'ACTIVE') {
         break;
       }
+      
+      await Utils.sleep(1000);
     } while (true);
 
     let ok = false;
@@ -212,6 +218,8 @@ class Kinesis {
             if (streamDetails.StreamStatus === 'ACTIVE') {
               break;
             }
+            
+            await Utils.sleep(1000);
           } while (true);
         } else {
           console.log(err);
